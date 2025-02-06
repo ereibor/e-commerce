@@ -6,7 +6,7 @@ const Nav = () => {
   const activeLink = "bg-white text-blue-900 rounded-l-lg";
 
   return (
-    <aside className="text-white bg-black h-screen p-4">
+    <aside className="text-white bg-black w-auto h-screen p-4">
       <Link href={"/"} className="flex gap-1 mb-6">
         {/* replace div with icon */}
         <svg
